@@ -29,6 +29,7 @@
 #include "../../events/scancodes_xfree86.h"
 
 #include <X11/keysym.h>
+#include <X11/XF86keysym.h>
 #include <X11/XKBlib.h>
 
 #include "imKStoUCS.h"
@@ -148,6 +149,24 @@ static const struct {
     { XK_apostrophe, SDL_SCANCODE_APOSTROPHE },
     { XK_bracketleft, SDL_SCANCODE_LEFTBRACKET },
     { XK_bracketright, SDL_SCANCODE_RIGHTBRACKET },
+    { XF86XK_Cut, SDL_SCANCODE_CUT },
+    { XF86XK_Copy, SDL_SCANCODE_COPY },
+    { XF86XK_Paste, SDL_SCANCODE_PASTE },
+    { XF86XK_AudioMute, SDL_SCANCODE_MUTE },
+    { XF86XK_AudioRaiseVolume, SDL_SCANCODE_VOLUMEUP },
+    { XF86XK_AudioLowerVolume, SDL_SCANCODE_VOLUMEDOWN },
+    { XF86XK_AudioNext, SDL_SCANCODE_AUDIONEXT },
+    { XF86XK_AudioPrev, SDL_SCANCODE_AUDIOPREV },
+    { XF86XK_AudioStop, SDL_SCANCODE_AUDIOSTOP },
+    { XF86XK_AudioPlay, SDL_SCANCODE_AUDIOPLAY },
+    { XF86XK_Mail, SDL_SCANCODE_MAIL },
+    { XF86XK_Calculator, SDL_SCANCODE_CALCULATOR },
+    { XF86XK_Search, SDL_SCANCODE_AC_SEARCH },
+    { XF86XK_HomePage, SDL_SCANCODE_AC_HOME },
+    { XF86XK_Back, SDL_SCANCODE_AC_BACK },
+    { XF86XK_Forward, SDL_SCANCODE_AC_FORWARD },
+    { XF86XK_Refresh, SDL_SCANCODE_AC_REFRESH },
+    { XF86XK_Favorites, SDL_SCANCODE_AC_BOOKMARKS },
 };
 
 static const struct
