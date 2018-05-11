@@ -298,7 +298,7 @@ static const SDL_Scancode xfree86_scancode_table2[] = {
     /* 118 */   SDL_SCANCODE_UNKNOWN,   /* plusminus */
     /* 119 */   SDL_SCANCODE_PAUSE,
     /* 120 */   SDL_SCANCODE_UNKNOWN,   /* XF86LaunchA */
-    /* 121 */   SDL_SCANCODE_UNKNOWN,   /* KP_Decimal */
+    /* 121 */   SDL_SCANCODE_KP_COMMA,	/* KP_Decimal */
     /* 122 */   SDL_SCANCODE_UNKNOWN,   /* Hangul */
     /* 123 */   SDL_SCANCODE_UNKNOWN,   /* Hangul_Hanja */
     /* 124 */   SDL_SCANCODE_INTERNATIONAL3, /* Yen */
@@ -356,8 +356,8 @@ static const SDL_Scancode xfree86_scancode_table2[] = {
     /* 176 */   SDL_SCANCODE_UNKNOWN,
     /* 177 */   SDL_SCANCODE_UNKNOWN,   /* XF86ScrollUp */
     /* 178 */   SDL_SCANCODE_UNKNOWN,   /* XF86ScrollDown */
-    /* 179 */   SDL_SCANCODE_UNKNOWN,   /* parenleft */
-    /* 180 */   SDL_SCANCODE_UNKNOWN,   /* parenright */
+    /* 179 */   SDL_SCANCODE_KP_LEFTPAREN,  /* parenleft */
+    /* 180 */   SDL_SCANCODE_KP_RIGHTPAREN, /* parenright */
     /* 181 */   SDL_SCANCODE_UNKNOWN,   /* XF86New */
     /* 182 */   SDL_SCANCODE_AGAIN,
     /* 183 */   SDL_SCANCODE_F13,       /* XF86Tools */
@@ -385,7 +385,7 @@ static const SDL_Scancode xfree86_scancode_table2[] = {
     /* 205 */   SDL_SCANCODE_UNKNOWN,   /* XF86Suspend */
     /* 206 */   SDL_SCANCODE_UNKNOWN,   /* XF86Close */
     /* 207 */   SDL_SCANCODE_AUDIOPLAY,
-    /* 208 */   SDL_SCANCODE_AUDIONEXT,
+    /* 208 */   SDL_SCANCODE_AUDIOFASTFORWARD,
     /* 209 */   SDL_SCANCODE_UNKNOWN,
     /* 210 */   SDL_SCANCODE_PRINTSCREEN,
     /* 211 */   SDL_SCANCODE_UNKNOWN,
