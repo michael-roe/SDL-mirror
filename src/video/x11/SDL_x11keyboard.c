@@ -167,6 +167,8 @@ static const struct {
     { XF86XK_Forward, SDL_SCANCODE_AC_FORWARD },
     { XF86XK_Refresh, SDL_SCANCODE_AC_REFRESH },
     { XF86XK_Favorites, SDL_SCANCODE_AC_BOOKMARKS },
+    { XF86XK_AudioRewind, SDL_SCANCODE_AUDIOREWIND },
+    { XF86XK_AudioForward, SDL_SCANCODE_AUDIOFASTFORWARD },
 };
 
 static const struct
