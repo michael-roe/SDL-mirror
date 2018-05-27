@@ -299,8 +299,8 @@ static const SDL_Scancode xfree86_scancode_table2[] = {
     /* 119 */   SDL_SCANCODE_PAUSE,
     /* 120 */   SDL_SCANCODE_UNKNOWN,   /* XF86LaunchA */
     /* 121 */   SDL_SCANCODE_KP_COMMA,	/* KP_Decimal */
-    /* 122 */   SDL_SCANCODE_UNKNOWN,   /* Hangul */
-    /* 123 */   SDL_SCANCODE_UNKNOWN,   /* Hangul_Hanja */
+    /* 122 */   SDL_SCANCODE_LANG1,	/* Hangul */
+    /* 123 */   SDL_SCANCODE_LANG2,	/* Hangul_Hanja */
     /* 124 */   SDL_SCANCODE_INTERNATIONAL3, /* Yen */
     /* 125 */   SDL_SCANCODE_LGUI,
     /* 126 */   SDL_SCANCODE_RGUI,
