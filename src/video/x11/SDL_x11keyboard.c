@@ -176,6 +176,7 @@ static const struct {
     { XF86XK_Eject, SDL_SCANCODE_EJECT },
     { XF86XK_AudioRewind, SDL_SCANCODE_AUDIOREWIND },
     { XF86XK_AudioForward, SDL_SCANCODE_AUDIOFASTFORWARD },
+    { XF86XK_MenuKB, SDL_SCANCODE_MENU },
 };
 
 static const struct
